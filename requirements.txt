@@ -1,0 +1,7 @@
+streamlit>=1.40
+pandas
+openpyxl
+requests
+groq
+youtube-transcript-api
+
