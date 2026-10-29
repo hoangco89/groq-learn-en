@@ -258,7 +258,7 @@ if st.session_state.get("loaded_video") != video:
         st.session_state.pop(k, None)
     st.session_state.loaded_video = video
 
-left, right = st.columns([1, 2])
+left, right = st.columns([3, 5])
 with left:
     components.html(
         f'<iframe width="315" height="560" src="https://www.youtube.com/embed/{video}?rel=0" '
